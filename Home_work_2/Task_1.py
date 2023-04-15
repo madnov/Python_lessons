@@ -8,7 +8,7 @@ def factorial():
             result *= j
         factorials.append(result)
         result = 1
-    return factorials    
-             
-               
+    return factorials
+
+
 print(factorial())

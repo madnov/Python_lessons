@@ -7,6 +7,8 @@ def find_count():
         for j in string:
             if i == j:
                 count += 1
-        print(f'{i} - {count}\t',end=' ')        
-        count = 0        
-find_count()        
+        print(f'{i} - {count}\t', end=' ')
+        count = 0
+
+
+find_count()
