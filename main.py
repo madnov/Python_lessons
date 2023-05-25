@@ -1,15 +1,8 @@
-def count(func):
-    def decorator(var):
-        count = int(input('Введите количество: '))
-        for _ in range(count):
-            func(var)
-    return decorator
 
+with open('appel.txt', 'r', encoding='utf-8') as file:
+    question = file.read().replace('\n', ':').split(':')
+    
 
-@count
-def main(var):
-    request = int(input('Введите число: '))
-    print(var * request)
+    
+print(question)
 
-
-main(10)
